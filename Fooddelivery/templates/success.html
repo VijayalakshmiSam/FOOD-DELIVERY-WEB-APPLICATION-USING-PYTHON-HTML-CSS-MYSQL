@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>
+            Order Details
+        </title>
+    </head>
+    <body>
+        <style>
+            td {
+                 width: 150px;
+                 color:blueviolet;
+                 text-align: center;
+                 border: 1px solid black;
+                 padding: 5px;
+               }
+         </style>
+      <table>
+          <thead>
+            <tr>
+                <th>Name</th>
+                <th>Food Ordered</th>
+                <th>Totalcost</th>
+            </tr>
+          </thead>
+          <tbody>  
+              <tr>
+                  <td>{{data[0]}}</td>
+                  <td>{{data[1]}}</td>
+                  <td>{{data[2]}}</td>
+              </tr>
+          </tbody>
+      </table>
+      <br><br>
+      <a href="{{url_for('output')}}">
+        <button>Display My Previous Orders</button>
+     </a>  
+    </body>
+</html>

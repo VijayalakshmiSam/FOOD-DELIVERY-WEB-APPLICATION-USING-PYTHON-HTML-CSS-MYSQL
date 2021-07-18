@@ -1,0 +1,32 @@
+<html> 
+	<head> 
+		<title> Register </title> 
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">			 
+	</head> 
+    <br><br>
+    <body>
+        <div class="register">
+            <h2>Register</h2>
+            <div class="form">
+                <form action="{{ url_for('register') }}" method="post"> 
+                    <div class="msg">{{ msg }}</div> 
+                    <label>Name:</label>
+                        <input id="name" name="name" type="text" placeholder="Enter Your name" class="textbox" required/></br></br> 
+                    <label>UserName</label>
+                        <input id="username" name="username" type="text" placeholder="Enter Your Username" class="textbox" required/></br></br> 
+                    <label>Password:</label>
+                        <input id="password" name="password" type="password" placeholder="Enter Your Password" class="textbox" required/></br></br> 
+                    <label>Address:</label>
+                        <input id="address" name="address" type="text" placeholder="Enter Your Address" class="textbox" required/></br></br>
+                    <label>Phone:</label>
+                        <input id="phnno" name="phnno" type="number" placeholder="Enter Your Number" class="textbox" required/></br></br> 
+                    <label>Email:</label>
+                        <input id="email" name="email" type="text" placeholder="Enter Your Email ID" class="textbox"/></br></br> 
+                        <input type="submit" class="btn" value="Sign Up"></br> 
+                </form> 
+                <p class="bottom">Already have an account? <a class="bottom" href="{{url_for('login')}}"> <button>Login here</button></a></p> 
+            </div>
+        </div>
+
+    </body>
+</html>

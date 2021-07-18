@@ -1,0 +1,32 @@
+.order{
+    text-align: center;
+    color:blue;
+}
+.foodorder{
+    text-align: center;
+    color:chartreuse;
+}
+.btn{
+    text-align: center;
+    color:crimson;
+}
+.login{
+    text-align: center;
+    color:darkgreen;
+}
+.bottom{
+    text-align: center;
+    color:darkred;
+}
+.register{
+    text-align: center;
+    color:deeppink;
+}
+.msg{
+    text-align: center;
+    color:dodgerblue;
+}
+.h1{
+    text-align: center;
+    color:blueviolet;
+}
