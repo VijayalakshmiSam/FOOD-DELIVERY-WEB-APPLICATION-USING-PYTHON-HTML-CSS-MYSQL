@@ -5,7 +5,8 @@ It contains html pages for login,register,order,success and output.
 
 In database create tables
 
+  userdetails
   fooditems              
   orderdetails           
   output                 
-  userdetails
+  
